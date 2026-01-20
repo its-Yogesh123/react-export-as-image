@@ -1,0 +1,31 @@
+{
+  "name": "react-export-as-image",
+  "version": "1.0.0",
+  "description": "React hook to export components as images (React 18 compatible)",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-hook",
+    "export-image",
+    "dom-to-image",
+    "react18"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "html-to-image": "^1.11.13"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.55.2"
+  }
+}
